@@ -1,0 +1,47 @@
+{
+  "@@locale": "es",
+  "pageHomeTitle": "Recetas",
+  "pageHomeDrawerHeader": "Recetas",
+  "pageHomeDrawerListTileSettings": "Ajustes",
+  "pageHomeRecipeAuthor": "por {name}",
+  "@pageHomeRecipeAuthor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pageHomeRecipeCreated": "creado {date}",
+  "@pageHomeRecipeCreated": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "pageHomeRecipeVotes": "{count, plural, =1 {{count} voto} other {{count} votos}}",
+  "@pageHomeRecipeVotes": {
+    "description": "The gen_l10n does not handle properly plural forms: zero, one, and two. Check the reported issue for more details: https://github.com/flutter/flutter/issues/84291",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pageHomeRecipeSaladName": "Ensalada",
+  "pageHomeRecipeSaladDescription": "Ensalada de verduras frescas llena de vitaminas, fibra y minerales.",
+  "pageHomeRecipeRiceName": "Arroz",
+  "pageHomeRecipeRiceDescription": "Arroz con verduras y frijoles. Una comida nutritiva alta en fibra.",
+  "pageHomeRecipeFriedEggsName": "Huevos fritos",
+  "pageHomeRecipeFriedEggsDescription": "Una comida llena de proteínas y minerales.",
+  "pageSettingsTitle": "Ajustes",
+  "pageSettingsInputLanguage": "{locale, select, ar {عربي} en {English} es {Español} other {-}}",
+  "@pageSettingsInputLanguage": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  }
+}
